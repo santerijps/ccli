@@ -220,7 +220,6 @@
 
     for (int i = 1; i < argc; i++) {
       char *arg = argv[i];
-      size_t len = strlen(arg);
 
       if (read_option_value) {
         read_option_value = false;
